@@ -1,0 +1,187 @@
+{
+  "login": {
+    "title": "Login to the system.",
+    "loginId": {
+      "text": "Login ID",
+      "placeholder": "ID"
+    },
+    "password": {
+      "text": "Password",
+      "placeholder": "Password"
+    },
+    "loginButton": {
+      "text": "Login"
+    }
+  },
+  "header": {
+    "pointHistory": "Points history",
+    "transactionHistory": "Transaction history",
+    "statistical": "Statistical",
+    "logout": "Logout",
+    "language": {
+      "en": "English",
+      "jp": "Japan"
+    }
+  },
+  "pointHistory": {
+    "title": "Points history",
+    "fromConnection": {
+      "placeholder": "System connection",
+      "kameiten": "Kameiten",
+      "kaiin": "Kaiin",
+      "all": "All"
+    },
+    "deviceId": {
+      "placeholder": "Device ID"
+    },
+    "customerId": {
+      "placeholder": "Customer ID"
+    },
+    "type": {
+      "placeholder": "Type",
+      "grant": "Grant",
+      "init": "Init",
+      "attach": "Attach",
+      "exchange": "Exchange",
+      "cansel": "Cansel",
+      "detach": "Detach",
+      "expired": "Expired",
+      "all": "All"
+    },
+    "startTime": {
+      "placeholder": "Start time"
+    },
+    "endTime": {
+      "placeholder": "End time"
+    },
+    "table": {
+      "header": {
+        "time": "Time",
+        "system": "System",
+        "deviceId": "Device ID",
+        "customerId": "Customer ID",
+        "type": "Type",
+        "amount": "Amount",
+        "balance": "Latest Point",
+        "expiration": "Expiration Date"
+      },
+      "content": {
+        "system": {
+          "kameiten": "Kameiten",
+          "kaiin": "Kaiin"
+        },
+        "type": {
+          "grant": "Grant",
+          "init": "Init",
+          "attach": "Attach",
+          "exchange": "Exchange",
+          "cansel": "Cansel",
+          "detach": "Detach",
+          "expired": "Expired"
+        }
+      }
+    }
+  },
+  "transactionsHistory": {
+    "title": "Transaction History",
+    "txHash": {
+      "placeholder": "Tx Hash"
+    },
+    "type": {
+      "placeholder": "Type",
+      "mint": "Mint",
+      "burn": "Burn",
+      "all": "All"
+    },
+    "status": {
+      "placeholder": "Status",
+      "submitted": "Synchronizing",
+      "confirmed": "Comfirmed",
+      "failed": "Failed",
+      "all": "All"
+    },
+    "startTime": {
+      "placeholder": "Start time"
+    },
+    "endTime": {
+      "placeholder": "End time"
+    },
+    "table": {
+      "header": {
+        "time": "Time",
+        "blockNumber": "Block Number",
+        "blockHash": "Block Hash",
+        "txHash": "Tx Hash",
+        "toAddress": "To Address",
+        "amount": "Amount",
+        "fee": "Fee",
+        "type": "Type",
+        "status": "Status",
+        "scan": "Scan"
+      },
+      "content": {
+        "type": {
+          "mint": "Mint",
+          "burn": "Burn"
+        },
+        "status": {
+          "submitted": "Synchronizing",
+          "confirmed": "Comfirmed",
+          "failed": "Failed"
+        }
+      }
+    }
+  },
+  "statistical": {
+    "title": "Statistical",
+    "store": {
+      "placeholder": "Store"
+    },
+    "Member": {
+      "placeholder": "Member"
+    },
+    "device": {
+      "placeholder": "Device ID"
+    },
+    "startTime": {
+      "placeholder": "Start time"
+    },
+    "endTime": {
+      "placeholder": "End time"
+    },
+    "customer": {
+      "placeholder": "Customer ID"
+    },
+    "header": {
+      "store": {
+        "placeholder": "Store"
+      },
+      "member": {
+        "placeholder": "Member"
+      }
+    },
+    "table": {
+      "header": {
+        "deviceId": "Device ID",
+        "customerId": "Customer ID",
+        "init": "Init",
+        "grant": "Grant",
+        "attach": "Attach",
+        "exchange": "exchange",
+        "cansel": "Cansel",
+        "detach": "Detach",
+        "expired": "Expired",
+        "total": "Total"
+      },
+      "footer": {
+        "close": "Close"
+      }
+    }
+  },
+  "error": {
+    "message": "There is an error.",
+    "description": "No data results."
+  },
+  "search": "Search",
+  "downloadCSV": "Download CSV"
+}

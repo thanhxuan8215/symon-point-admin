@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #116d76 !important;
+  padding: 0 !important;
+
+  .menu {
+    background-color: transparent;
+    width: 500px;
+    &__left-menu {
+      display: flex;
+      align-items: center;
+      margin: 0px 10px;
+      &__dropmenu {
+        background-color: #116d76 !important;
+        display: flex;
+        align-items: center;
+      }
+      .icon {
+        font-size: 16px;
+        color: #FFF;
+      }
+    }
+    .ant-menu-item {
+      border-radius: unset;
+      &::after {
+        border-bottom: none;
+      }
+      a {
+        color: white;
+      }
+    }
+
+    .ant-menu-item-selected {
+      background-color: #308e97;
+    }
+
+    
+  }
+
+  .text {
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+  }
+
+  .button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    &::after {
+      animation: none;
+    }
+  }
+  
+  .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after {
+    border-width: 0px;
+    border-bottom-color: none;
+  }
+}

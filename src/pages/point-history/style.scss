@@ -1,0 +1,56 @@
+.point-history {
+  &__title {
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #be140b;
+    margin-bottom: 30px;
+  }
+
+  .search {
+    display: inline-flex;
+    gap: 20px;
+
+    &__select {
+      width: 250px;
+    }
+
+    &__input {
+      width: 150px;
+      margin: 0px 10px;
+    }
+
+    &__button {
+      padding: 4px 30px;
+      background: #2196f3;
+      border-radius: 10px;
+    }
+  }
+
+  .ant-table-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .ant-table-thead .ant-table-cell {
+    background-color: #17a2b8;
+  }
+
+  .table-striped-rows tr:nth-child(2n) td {
+    background-color: #f2f2f2;
+  }
+
+  .table-striped-rows thead {
+    font-size: 15px;
+  }
+
+  .ant-pagination {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ant-table-cell-scrollbar {
+    box-shadow: 0 0px 0 0px #fafafa !important;
+  }
+
+}

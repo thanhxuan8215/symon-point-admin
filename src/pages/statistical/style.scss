@@ -1,0 +1,30 @@
+.statistical {
+  &__title {
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #be140b;
+    margin-bottom: 30px;
+  }
+
+  .group {
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 30px;
+  
+    .radio {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.modal {
+  .title {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}

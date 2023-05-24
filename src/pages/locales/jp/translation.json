@@ -1,0 +1,187 @@
+{
+  "login": {
+    "title": "システムにログインします。",
+    "loginId": {
+      "text": "ログインID",
+      "placeholder": "ID"
+    },
+    "password": {
+      "text": "パスワード",
+      "placeholder": "パスワード"
+    },
+    "loginButton": {
+      "text": "ログイン"
+    }
+  },
+  "header": {
+    "pointHistory": "ポイント履歴",
+    "transactionHistory": "取引履歴",
+    "statistical": "統計",
+    "logout": "ログアウト",
+    "language": {
+      "en": "英語",
+      "jp": "日本語"
+    }
+  },
+  "pointHistory": {
+    "title": "ポイント履歴",
+    "fromConnection": {
+      "placeholder": "連携システム",
+      "kameiten": "加盟店アプリ",
+      "kaiin": "会員アプリ",
+      "all": "全て"
+    },
+    "deviceId": {
+      "placeholder": "端末ID"
+    },
+    "customerId": {
+      "placeholder": "会員番号"
+    },
+    "type": {
+      "placeholder": "タイプ",
+      "grant": "付与",
+      "init": "初期ポイント数",
+      "attach": "直付付与",
+      "exchange": "交換",
+      "cansel": "取消",
+      "detach": "直付取消",
+      "expired": "失効",
+      "all": "全て"
+    },
+    "startTime": {
+      "placeholder": "開始日"
+    },
+    "endTime": {
+      "placeholder": "終了日"
+    },
+    "table": {
+      "header": {
+        "time": "時間",
+        "system": "システム",
+        "deviceId": "端末ID",
+        "customerId": "会員番号",
+        "type": "タイプ",
+        "amount": "ポイント数",
+        "balance": "最新ポイント",
+        "expiration": "有効期限"
+      },
+      "content": {
+        "system": {
+          "kameiten": "加盟店アプリ",
+          "kaiin": "会員アプリ"
+        },
+        "type": {
+          "grant": "付与",
+          "init": "初期ポイント数",
+          "attach": "直付付与",
+          "exchange": "交換",
+          "cansel": "取消",
+          "detach": "直付取消",
+          "expired": "失効"
+        }
+      }
+    }
+  },
+  "transactionsHistory": {
+    "title": "取引履歴",
+    "txHash": {
+      "placeholder": "取引ハッシュ"
+    },
+    "type": {
+      "placeholder": "タイプ",
+      "mint": "ミント",
+      "burn": "バーニング",
+      "all": "全て"
+    },
+    "status": {
+      "placeholder": "状態",
+      "submitted": "同期中",
+      "confirmed": "確認済み",
+      "failed": "失敗",
+      "all": "全て"
+    },
+    "startTime": {
+      "placeholder": "開始日"
+    },
+    "endTime": {
+      "placeholder": "終了日"
+    },
+    "table": {
+      "header": {
+        "time": "タイム",
+        "blockNumber": "ブロック番号",
+        "blockHash": "ブロックハッシュ",
+        "txHash": "取引ハッシュ",
+        "toAddress": "送信先",
+        "amount": "数量",
+        "fee": "手数料",
+        "type": "タイプ",
+        "status": "状態",
+        "scan": "参照"
+      },
+      "content": {
+        "type": {
+          "mint": "ミント",
+          "burn": "バーニング"
+        },
+        "status": {
+          "submitted": "同期中",
+          "confirmed": "確認済み",
+          "failed": "失敗"
+        }
+      }
+    }
+  },
+  "statistical": {
+    "title": "統計",
+    "store": {
+      "placeholder": "加盟店"
+    },
+    "Member": {
+      "placeholder": "会員"
+    },
+    "device": {
+      "placeholder": "端末ID"
+    },
+    "startTime": {
+      "placeholder": "開始日"
+    },
+    "endTime": {
+      "placeholder": "終了日"
+    },
+    "customer": {
+      "placeholder": "会員番号"
+    },
+    "header": {
+      "store": {
+        "placeholder": "加盟店"
+      },
+      "member": {
+        "placeholder": "会員"
+      }
+    },
+    "table": {
+      "header": {
+        "deviceId": "端末ID",
+        "customerId": "会員番号",
+        "init": "初期ポイント数",
+        "grant": "付与",
+        "attach": "直付付与",
+        "exchange": "交換",
+        "cansel": "取消",
+        "detach": "直付取消",
+        "expired": "失効",
+        "total": "合計"
+      },
+      "footer": {
+        "close": "閉じる"
+      }
+    }
+  },
+  "error": {
+    "message": "エラーが発生しました",
+    "description": "何もデータが見つかりませんでした。"
+  },
+  "search": "検索",
+  "downloadCSV": "ダウンロードCSV"
+}
